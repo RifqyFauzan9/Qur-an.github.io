@@ -66,6 +66,11 @@ function getSurat(){
                     const buttonPlay = document.querySelector('.audio-button-play');
                     const buttonPause = document.querySelector('.audio-button-pause');
                     const audioSurat = document.querySelector('#audio-tag');
+
+                    // play
+                    buttonPlay.addEventListener('click', function(){
+                        audioSurat.play();
+                    })
     });
 }
 getSurat();
