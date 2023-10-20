@@ -8,3 +8,6 @@
 .hidden-button{
     display: none;
 }
+.container span{
+    cursor: pointer;
+}
