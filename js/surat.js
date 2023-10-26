@@ -19,7 +19,7 @@ function getSurat(){
         // title surat
         const titleSurat = document.querySelector('#title-surat')
         titleSurat.textContent = `
-        Surat ${Response.nama_latin}
+         ${Response.nama_latin}
         `
 
         // judul surat start
