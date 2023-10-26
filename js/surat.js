@@ -71,6 +71,11 @@ function getSurat(){
                     buttonPlay.addEventListener('click', function(){
                         audioSurat.play();
                     })
+
+                    //pause
+                    buttonPause.addEventListener('click', function(){
+                        audioSurat.pause();
+                    })
     });
 }
 getSurat();

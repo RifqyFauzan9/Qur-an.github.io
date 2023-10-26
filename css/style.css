@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+*{
+    font-family: 'poppins';
+}
 .card-surat{
     cursor: pointer;
     transition: .8s ease;
 }
 .card-surat:hover{
-    background-color: #8b997c;
+    background-color: #b5b3a8;
 }
-.hidden-button{
-    display: none;
+.container img{
+    width: 50px;
 }
-.container span{
+.pointer{
     cursor: pointer;
 }
