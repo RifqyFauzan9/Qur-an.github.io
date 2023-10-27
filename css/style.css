@@ -15,3 +15,15 @@
 .pointer{
     cursor: pointer;
 }
+body{
+    background: url(https://i.pinimg.com/474x/2d/1f/91/2d1f915c1b052b3fda47b310f0bf430f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.center{
+    margin-left: 25rem;
+}
+.left{
+    margin-left: 1rem;
+}
