@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@400;500&family=Roboto&display=swap');
 *{
-    font-family: 'poppins';
-}
+    font-family: 'Quicksand', sans-serif;
+  }
 .card-surat{
     cursor: pointer;
     transition: .8s ease;
@@ -13,7 +12,7 @@
     width: 50px;
 }
 .pointer{
-    cursor: pointer;
+    text-decoration: none;
 }
 body{
     background: url(https://i.pinimg.com/474x/2d/1f/91/2d1f915c1b052b3fda47b310f0bf430f.jpg);
