@@ -26,7 +26,10 @@
           <nav class="navbar navbar-light">
             <div class="container-fluid">
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Mau Surat Apa?" aria-label="Search">
+                <!-- search aktif -->
+  <div class="search-bar mt-1 aktif">
+    <input type="text" id="surat-search" class="aktiff" placeholder="Mau Surat Apa ?">
+  </div>
                 <button class="btn btn-outline-success" type="submit">Cari</button>
               </form>
             </div>
@@ -34,6 +37,7 @@
         </div>
       </nav>
     <!-- navbar end -->
+    
     <div class="container mt-5">
         <div class="row card-surat-list"></div>
     </div>

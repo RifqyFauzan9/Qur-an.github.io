@@ -26,3 +26,10 @@ body{
 .left{
     margin-left: 1rem;
 }
+.aktif{
+    margin-right: 15px;
+    border-radius: 1rem;
+}
+.aktiff{
+    padding: 7px;
+}
